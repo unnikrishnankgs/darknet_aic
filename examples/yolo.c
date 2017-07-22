@@ -4,7 +4,22 @@
 //#define LABELS_FOLDER "labels"
 #define LABELS_FOLDER "annotations"
 
-char *voc_names[] = {"aeroplane", "bicycle", "bird", "boat", "bottle", "bus", "car", "cat", "chair", "cow", "diningtable", "dog", "horse", "motorbike", "person", "pottedplant", "sheep", "sofa", "train", "tvmonitor"};
+//char *voc_names[] = {"aeroplane", "bicycle", "bird", "boat", "bottle", "bus", "car", "cat", "chair", "cow", "diningtable", "dog", "horse", "motorbike", "person", "pottedplant", "sheep", "sofa", "train", "tvmonitor"};
+char *voc_names[] = {"Car",
+    "SUV",
+    "SmallTruck",
+    "MediumTruck",
+    "LargeTruck",
+    "Pedestrian",
+    "Bus",
+    "Van",
+    "GroupOfPeople",
+    "Bicycle",
+    "Motorcycle",
+    "TrafficSignal-Green",
+    "TrafficSignal-Yellow",
+    "TrafficSignal-Red"
+};
 
 void train_yolo(char *cfgfile, char *weightfile)
 {
